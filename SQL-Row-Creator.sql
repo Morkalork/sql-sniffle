@@ -1,14 +1,14 @@
 --#################################################################################
---#   ____   ___  _       ____                  ____                _			  #
+--#                                                                               #
 --#  / ___| / _ \| |     |  _ \ _____      __  / ___|_ __ ___  __ _| |_ ___  _ __ #
 --#  \___ \| | | | |     | |_) / _ \ \ /\ / / | |   | '__/ _ \/ _` | __/ _ \| '__|#
 --#   ___) | |_| | |___  |  _ < (_) \ V  V /  | |___| | |  __/ (_| | || (_) | |   #
 --#  |____/ \__\_\_____| |_| \_\___/ \_/\_/    \____|_|  \___|\__,_|\__\___/|_|   #
---#  Written by Magnus Ferm, No rights reserved									  #
---#	 A part of SQL-Sniffle														  #
---#																				  #
---#	 This is a tool that can be used to generate an insert script for a			  #
---#	 particular table in a database.											  #
+--#  Written by Magnus Ferm, No rights reserved                                   #
+--#  A part of SQL-Sniffle                                                        #
+--#                                                                               #
+--#  This is a tool that can be used to generate an insert script for a           #
+--#  particular table in a database.                                              #
 --#################################################################################
 
 
