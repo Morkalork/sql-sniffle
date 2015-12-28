@@ -90,7 +90,7 @@ BEGIN
 	END
 	ELSE IF (@ColumnType = 36) --Unique identifier
 	BEGIN
-		SET @Values = @Values + CHAR(9) + '00000000-0000-0000-0000-000000000000'
+		SET @Values = @Values + CHAR(9) + '''00000000-0000-0000-0000-000000000000'''
 	END
 	ELSE IF (@ColumnType = 189)	--Timestamp
 	BEGIN
@@ -109,13 +109,13 @@ BEGIN
 	BEGIN
 		--So, if fetch status is ok (that means we found something after the
 		--one we just added) we'll need another comma
-		SET @Insert = @Insert + ', '
-		SET @Values = @Values + ', '
+		SET @Insert = @Insert + ','
+		SET @Values = @Values + ','
 	END
 
 	IF @AddColumnNameComment = 1
 	BEGIN
-		SET @Values = @Values + '--' + @CurrentColumnName
+		SET @Values = @Values + ' --' + @CurrentColumnName
 	END
 
 	SET @Insert = @Insert + CHAR(13)
