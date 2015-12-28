@@ -1,11 +1,3 @@
-███████╗ ██████╗ ██╗         ███████╗███╗   ██╗██╗███████╗███████╗██╗     ███████╗
-██╔════╝██╔═══██╗██║         ██╔════╝████╗  ██║██║██╔════╝██╔════╝██║     ██╔════╝
-███████╗██║   ██║██║         ███████╗██╔██╗ ██║██║█████╗  █████╗  ██║     █████╗  
-╚════██║██║▄▄ ██║██║         ╚════██║██║╚██╗██║██║██╔══╝  ██╔══╝  ██║     ██╔══╝  
-███████║╚██████╔╝███████╗    ███████║██║ ╚████║██║██║     ██║     ███████╗███████╗
-╚══════╝ ╚══▀▀═╝ ╚══════╝    ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═╝     ╚══════╝╚══════╝
-                                                                                  
-
 # sql-sniffle
 SQL Sniffle will contain useful scripts I have created to help me conquer and domesticate SQL-Server. The first
 script added was **SQL Row Creator** which I created because I had to add rows into huge tables and I wanted
